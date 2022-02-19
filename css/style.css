@@ -1,0 +1,109 @@
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Taviraj:regular,italic,600,600italic,700,700italic,900,900italic&display=swap);
+@font-face {
+	font-family: nunito;
+	src: url("../font/NunitoSans-ExtraLight.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+.wraper {
+	min-height: 100%;
+	overflow: hidden;
+}
+body{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+header{
+	font-family: nunito;
+	font-size: 22px;
+	color: rgb(13, 13, 146);
+	text-transform: uppercase;
+}
+h1 {
+	font-family: taviraj;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 900;
+	color: rgb(177, 9, 51);
+	width: 500px;
+	height: 200px;
+	margin: 0px auto;
+	text-align:  center;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+img{
+	padding: 15px 220px;
+}
+#img1{
+padding: 0px 220px;
+}
+.insertion{
+	font-family: serif;
+	font-size: 26px;
+	font-style: oblique;
+	font-weight: 700;
+	text-align: justify;
+	color: rgb(170, 10, 10);
+	text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.705);
+	padding: 20px 50px;
+	margin-top: 30px;
+	margin-right: 0;
+	margin-bottom: 30px;
+	margin-left: 230px;
+}
+h2{
+	font-family: taviraj;
+	font-size: 28px;
+	font-style: italic;
+	font-weight: 700;
+	color: rgb(38, 20, 199);
+	text-align:  center;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+p{
+	font-family: serif;
+	font-size: 18px;
+	font-style: oblique;
+	font-weight: 400;
+	text-align: justify;
+	color: rgb(11, 5, 102);
+	word-spacing: 2px;
+}
+.text{
+	font-family: taviraj;
+	font-size: 18px;
+	font-weight: 400;
+	font-style:normal;
+	text-align: justify;
+	color: rgb(4, 2, 37);
+	letter-spacing: 1px;
+}
+div.text{
+	font-family: serif;
+	font-size: 20px;
+	font-style: oblique;
+	font-weight: 700;
+	text-align: justify;
+	color: rgba(150, 3, 3, 0.876);
+	margin-right: 0;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+footer{
+	font-family: nunito;
+	font-size: 22px;
+	color: rgb(13, 13, 146);
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+a{
+	color: brown;
+	text-decoration: underline;
+}
